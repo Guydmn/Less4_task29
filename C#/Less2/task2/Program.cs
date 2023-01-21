@@ -1,8 +1,8 @@
 ﻿// See https://aka.ms/new-console-template for more information
 Console.WriteLine("Hello, World!");
 
-Console.Write("Введите 3х значное число: ");
-int a = Convert.ToInt32(Console.ReadLine());
+int a = new Random().Next(100, 1000);
+Console.WriteLine($"Наше случайное число {a}");
 
 if (a > 99 && a < 1000)
 {
